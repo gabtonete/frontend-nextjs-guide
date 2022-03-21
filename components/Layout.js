@@ -5,9 +5,9 @@ import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
 
 const nameUser = 'Gabriel Tonete'
-export const siteTitle = 'Fake Newsletter'
+export const siteTitle = 'Next js course repository'
 
-export default function Layout({ children, home }) {
+export function Layout({ children, home }) {
   return (
     <div className={styles.container}>
       <Head>
